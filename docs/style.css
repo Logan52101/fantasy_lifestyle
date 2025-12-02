@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background: #000000;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/* Bottom Navbar */
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+
+    background: #b8b8b8;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    text-align: center;
+    flex: 1;
+    padding: 2.5px 0;
+    transition: 0.2s;
+}
+.nav-item p{
+    color: #000000;
+    margin-top: -15px;
+    font-size: 14px;
+}
+.nav-item:hover {
+    background: #5b5b5b;
+}
+.nav-item:active {
+    background: #5b5b5b;
+}
+
+.nav-item-selected {
+    text-decoration: none;
+    text-align: center;
+    flex: 1;
+    padding: 2.5px 0;
+    transition: 0.2s;
+}
+.nav-item-selected p{
+    color: #661b91;
+    margin-top: -15px;
+    font-size: 14px;
+}
+.nav-item-selected:hover {
+    background: #5b5b5b;
+}
+.nav-item-selected:active {
+    background: #5b5b5b;
+}
+
+.nav-icon {
+    width: 75px;
+    height: 75px;
+}
+
+/* League Options */
+.league-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 20px;
+}
+.league-button {
+    background-color: #661b91;
+    color: #ffffff;
+    font: bold 18px Arial, sans-serif;
+    border: none;
+    padding: 5% 5%;
+    font-size: 25px;
+    margin: 10px 10%;
+    cursor: pointer;
+}
+.league-button:active {
+    background-color: #5b5b5b;
+    color: #ffffff;
+    font: bold 18px Arial, sans-serif;
+    border: none;
+    padding: 5% 5%;
+    font-size: 25px;
+    margin: 10px 10%;
+    cursor: pointer;
+}
